@@ -16,7 +16,7 @@ imagen
 
 1. PID
 2. LQR
-3. LQG
+3. FC
 
 ## **Ganancias de cada controlador**
 
@@ -34,7 +34,7 @@ kd= -4.03087
 K =
 ~~~
 
-### **LQG**
+### **FC**
 
 ~~~matlab
 
@@ -68,7 +68,7 @@ imagen
 
 ~~~
 
-### **LQG**
+### **FC**
 
 ~~~matlab
 
