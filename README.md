@@ -94,6 +94,8 @@ K3 = [56.0344 19.9631 -14.8362 1.88008]
 
 ### Reglas del desplazamiento lineal
 
+|Condición                       |Respuesta         |
+|--------------------------------|------------------|
 |"error==NB & derivada-error==NB | vel-motor=PB (1)"|
 |"error==NB & derivada-error==NM | vel-motor=PB (1)"|
 |"error==NB & derivada-error==NS | vel-motor=PB (1)"|
