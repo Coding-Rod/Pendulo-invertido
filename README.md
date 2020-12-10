@@ -10,7 +10,7 @@ Ing. Gabriel Rojas
 
 ## **Espacio de estados**
 
-![State Space](assets\StateSpace.png)
+![State Space](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/StateSpace.png)
 
 ## **Controladores implementados**
 
