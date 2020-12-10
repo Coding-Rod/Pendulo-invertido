@@ -10,7 +10,7 @@ Ing. Gabriel Rojas
 
 ## Modelo 3D
 
-![Photoview360](assets\PenduloInvertido.JPG)
+![Photoview360](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/PenduloInvertido.JPG)
 
 ## **Espacio de estados**
 
@@ -154,15 +154,15 @@ K3 = [56.0344 19.9631 -14.8362 1.88008]
 
 ### **PID**
 
-![Grafica_PID](assets\Grafica_PID.jpg)
+![Grafica_PID](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/Grafica_PID.jpg)
 
 ### **LQR**
 
-![Grafica_LQR](assets\Grafica_LQR.jpg)
+![Grafica_LQR](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/Grafica_LQR.jpg)
 
 ### **Fuzzy Logic Controller**
 
-![Grafica_FC](assets\Grafica_FC.jpg)
+![Grafica_FC](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/Grafica_FC.jpg)
 
 ## **Datos de respuesta ante un step**
 
