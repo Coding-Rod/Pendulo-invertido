@@ -16,6 +16,10 @@ Ing. Gabriel Rojas
 
 ![State Space](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/StateSpace.png)
 
+## **Sistema en open-loop**
+
+![open-loop](assets\Grafica_open-loop.jpg)
+
 ## **Controladores implementados**
 
 1. PID
