@@ -145,6 +145,7 @@ K3 = [56.0344 19.9631 -14.8362 1.88008]
 |"error==PB & derivada-error==PS | vel-motor=NB (1)"|
 |"error==PB & derivada-error==PM | vel-motor=NB (1)"|
 |"error==PB & derivada-error==PB | vel-motor=NB (1)"|
+
 ## **Gráficas resultantes**
 
 ### **PID**
