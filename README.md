@@ -40,107 +40,109 @@ K3 = [56.0344 19.9631 -14.8362 1.88008]
 
 ### Reglas para el ángulo
 
-* "error==NB & derivada-error==NB => vel-motor=PB (1)"
-* "error==NB & derivada-error==NM => vel-motor=PB (1)"
-* "error==NB & derivada-error==NS => vel-motor=PB (1)"
-* "error==NB & derivada-error==ZE => vel-motor=PB (1)"
-* "error==NB & derivada-error==PS => vel-motor=PB (1)"
-* "error==NB & derivada-error==PM => vel-motor=PM (1)"
-* "error==NB & derivada-error==PB => vel-motor=ZE (1)"
-* "error==NM & derivada-error==NB => vel-motor=PB (1)"
-* "error==NM & derivada-error==NM => vel-motor=PB (1)"
-* "error==NM & derivada-error==NS => vel-motor=PB (1)"
-* "error==NM & derivada-error==ZE => vel-motor=PB (1)"
-* "error==NM & derivada-error==PS => vel-motor=PM (1)"
-* "error==NM & derivada-error==PM => vel-motor=ZE (1)"
-* "error==NM & derivada-error==PB => vel-motor=NM (1)"
-* "error==NS & derivada-error==NB => vel-motor=PB (1)"
-* "error==NS & derivada-error==NM => vel-motor=PB (1)"
-* "error==NS & derivada-error==NS => vel-motor=PB (1)"
-* "error==NS & derivada-error==ZE => vel-motor=PM (1)"
-* "error==NS & derivada-error==PS => vel-motor=ZE (1)"
-* "error==NS & derivada-error==PM => vel-motor=NM (1)"
-* "error==NS & derivada-error==PB => vel-motor=NB (1)"
-* "error==ZE & derivada-error==NB => vel-motor=PB (1)"
-* "error==ZE & derivada-error==NM => vel-motor=PB (1)"
-* "error==ZE & derivada-error==NS => vel-motor=PM (1)"
-* "error==ZE & derivada-error==ZE => vel-motor=ZE (1)"
-* "error==ZE & derivada-error==PS => vel-motor=NM (1)"
-* "error==ZE & derivada-error==PM => vel-motor=NB (1)"
-* "error==ZE & derivada-error==PB => vel-motor=NB (1)"
-* "error==PS & derivada-error==NB => vel-motor=PB (1)"
-* "error==PS & derivada-error==NM => vel-motor=PM (1)"
-* "error==PS & derivada-error==NS => vel-motor=ZE (1)"
-* "error==PS & derivada-error==ZE => vel-motor=NM (1)"
-* "error==PS & derivada-error==PS => vel-motor=NB (1)"
-* "error==PS & derivada-error==PM => vel-motor=NB (1)"
-* "error==PS & derivada-error==PB => vel-motor=NB (1)"
-* "error==PM & derivada-error==NB => vel-motor=PM (1)"
-* "error==PM & derivada-error==NM => vel-motor=ZE (1)"
-* "error==PM & derivada-error==NS => vel-motor=NM (1)"
-* "error==PM & derivada-error==ZE => vel-motor=NB (1)"
-* "error==PM & derivada-error==PS => vel-motor=NB (1)"
-* "error==PM & derivada-error==PM => vel-motor=NB (1)"
-* "error==PM & derivada-error==PB => vel-motor=NB (1)"
-* "error==PB & derivada-error==NB => vel-motor=ZE (1)"
-* "error==PB & derivada-error==NM => vel-motor=NM (1)"
-* "error==PB & derivada-error==NS => vel-motor=NB (1)"
-* "error==PB & derivada-error==ZE => vel-motor=NB (1)"
-* "error==PB & derivada-error==PS => vel-motor=NB (1)"
-* "error==PB & derivada-error==PM => vel-motor=NB (1)"
-* "error==PB & derivada-error==PB => vel-motor=NB (1)"
+|Condición                        |Respuesta         |
+|---------------------------------|------------------|
+| "error==NB & derivada-error==NB | vel-motor=PB (1)"|
+| "error==NB & derivada-error==NM | vel-motor=PB (1)"|
+| "error==NB & derivada-error==NS | vel-motor=PB (1)"|
+| "error==NB & derivada-error==ZE | vel-motor=PB (1)"|
+| "error==NB & derivada-error==PS | vel-motor=PB (1)"|
+| "error==NB & derivada-error==PM | vel-motor=PM (1)"|
+| "error==NB & derivada-error==PB | vel-motor=ZE (1)"|
+| "error==NM & derivada-error==NB | vel-motor=PB (1)"|
+| "error==NM & derivada-error==NM | vel-motor=PB (1)"|
+| "error==NM & derivada-error==NS | vel-motor=PB (1)"|
+| "error==NM & derivada-error==ZE | vel-motor=PB (1)"|
+| "error==NM & derivada-error==PS | vel-motor=PM (1)"|
+| "error==NM & derivada-error==PM | vel-motor=ZE (1)"|
+| "error==NM & derivada-error==PB | vel-motor=NM (1)"|
+| "error==NS & derivada-error==NB | vel-motor=PB (1)"|
+| "error==NS & derivada-error==NM | vel-motor=PB (1)"|
+| "error==NS & derivada-error==NS | vel-motor=PB (1)"|
+| "error==NS & derivada-error==ZE | vel-motor=PM (1)"|
+| "error==NS & derivada-error==PS | vel-motor=ZE (1)"|
+| "error==NS & derivada-error==PM | vel-motor=NM (1)"|
+| "error==NS & derivada-error==PB | vel-motor=NB (1)"|
+| "error==ZE & derivada-error==NB | vel-motor=PB (1)"|
+| "error==ZE & derivada-error==NM | vel-motor=PB (1)"|
+| "error==ZE & derivada-error==NS | vel-motor=PM (1)"|
+| "error==ZE & derivada-error==ZE | vel-motor=ZE (1)"|
+| "error==ZE & derivada-error==PS | vel-motor=NM (1)"|
+| "error==ZE & derivada-error==PM | vel-motor=NB (1)"|
+| "error==ZE & derivada-error==PB | vel-motor=NB (1)"|
+| "error==PS & derivada-error==NB | vel-motor=PB (1)"|
+| "error==PS & derivada-error==NM | vel-motor=PM (1)"|
+| "error==PS & derivada-error==NS | vel-motor=ZE (1)"|
+| "error==PS & derivada-error==ZE | vel-motor=NM (1)"|
+| "error==PS & derivada-error==PS | vel-motor=NB (1)"|
+| "error==PS & derivada-error==PM | vel-motor=NB (1)"|
+| "error==PS & derivada-error==PB | vel-motor=NB (1)"|
+| "error==PM & derivada-error==NB | vel-motor=PM (1)"|
+| "error==PM & derivada-error==NM | vel-motor=ZE (1)"|
+| "error==PM & derivada-error==NS | vel-motor=NM (1)"|
+| "error==PM & derivada-error==ZE | vel-motor=NB (1)"|
+| "error==PM & derivada-error==PS | vel-motor=NB (1)"|
+| "error==PM & derivada-error==PM | vel-motor=NB (1)"|
+| "error==PM & derivada-error==PB | vel-motor=NB (1)"|
+| "error==PB & derivada-error==NB | vel-motor=ZE (1)"|
+| "error==PB & derivada-error==NM | vel-motor=NM (1)"|
+| "error==PB & derivada-error==NS | vel-motor=NB (1)"|
+| "error==PB & derivada-error==ZE | vel-motor=NB (1)"|
+| "error==PB & derivada-error==PS | vel-motor=NB (1)"|
+| "error==PB & derivada-error==PM | vel-motor=NB (1)"|
+| "error==PB & derivada-error==PB | vel-motor=NB (1)"|
 
 ### Reglas del desplazamiento lineal
 
-* "error==NB & derivada-error==NB => vel-motor=PB (1)"
-* "error==NB & derivada-error==NM => vel-motor=PB (1)"
-* "error==NB & derivada-error==NS => vel-motor=PB (1)"
-* "error==NB & derivada-error==ZE => vel-motor=PB (1)"
-* "error==NB & derivada-error==PS => vel-motor=PB (1)"
-* "error==NB & derivada-error==PM => vel-motor=PM (1)"
-* "error==NB & derivada-error==PB => vel-motor=ZE (1)"
-* "error==NM & derivada-error==NB => vel-motor=PB (1)"
-* "error==NM & derivada-error==NM => vel-motor=PB (1)"
-* "error==NM & derivada-error==NS => vel-motor=PB (1)"
-* "error==NM & derivada-error==ZE => vel-motor=PB (1)"
-* "error==NM & derivada-error==PS => vel-motor=PM (1)"
-* "error==NM & derivada-error==PM => vel-motor=ZE (1)"
-* "error==NM & derivada-error==PB => vel-motor=NM (1)"
-* "error==NS & derivada-error==NB => vel-motor=PB (1)"
-* "error==NS & derivada-error==NM => vel-motor=PB (1)"
-* "error==NS & derivada-error==NS => vel-motor=PB (1)"
-* "error==NS & derivada-error==ZE => vel-motor=PM (1)"
-* "error==NS & derivada-error==PS => vel-motor=ZE (1)"
-* "error==NS & derivada-error==PM => vel-motor=NM (1)"
-* "error==NS & derivada-error==PB => vel-motor=NB (1)"
-* "error==ZE & derivada-error==NB => vel-motor=PB (1)"
-* "error==ZE & derivada-error==NM => vel-motor=PB (1)"
-* "error==ZE & derivada-error==NS => vel-motor=PM (1)"
-* "error==ZE & derivada-error==ZE => vel-motor=ZE (1)"
-* "error==ZE & derivada-error==PS => vel-motor=NM (1)"
-* "error==ZE & derivada-error==PM => vel-motor=NB (1)"
-* "error==ZE & derivada-error==PB => vel-motor=NB (1)"
-* "error==PS & derivada-error==NB => vel-motor=PB (1)"
-* "error==PS & derivada-error==NM => vel-motor=PM (1)"
-* "error==PS & derivada-error==NS => vel-motor=ZE (1)"
-* "error==PS & derivada-error==ZE => vel-motor=NM (1)"
-* "error==PS & derivada-error==PS => vel-motor=NB (1)"
-* "error==PS & derivada-error==PM => vel-motor=NB (1)"
-* "error==PS & derivada-error==PB => vel-motor=NB (1)"
-* "error==PM & derivada-error==NB => vel-motor=PM (1)"
-* "error==PM & derivada-error==NM => vel-motor=ZE (1)"
-* "error==PM & derivada-error==NS => vel-motor=NM (1)"
-* "error==PM & derivada-error==ZE => vel-motor=NB (1)"
-* "error==PM & derivada-error==PS => vel-motor=NB (1)"
-* "error==PM & derivada-error==PM => vel-motor=NB (1)"
-* "error==PM & derivada-error==PB => vel-motor=NB (1)"
-* "error==PB & derivada-error==NB => vel-motor=ZE (1)"
-* "error==PB & derivada-error==NM => vel-motor=NM (1)"
-* "error==PB & derivada-error==NS => vel-motor=NB (1)"
-* "error==PB & derivada-error==ZE => vel-motor=NB (1)"
-* "error==PB & derivada-error==PS => vel-motor=NB (1)"
-* "error==PB & derivada-error==PM => vel-motor=NB (1)"
-* "error==PB & derivada-error==PB => vel-motor=NB (1)"
+|"error==NB & derivada-error==NB | vel-motor=PB (1)"|
+|"error==NB & derivada-error==NM | vel-motor=PB (1)"|
+|"error==NB & derivada-error==NS | vel-motor=PB (1)"|
+|"error==NB & derivada-error==ZE | vel-motor=PB (1)"|
+|"error==NB & derivada-error==PS | vel-motor=PB (1)"|
+|"error==NB & derivada-error==PM | vel-motor=PM (1)"|
+|"error==NB & derivada-error==PB | vel-motor=ZE (1)"|
+|"error==NM & derivada-error==NB | vel-motor=PB (1)"|
+|"error==NM & derivada-error==NM | vel-motor=PB (1)"|
+|"error==NM & derivada-error==NS | vel-motor=PB (1)"|
+|"error==NM & derivada-error==ZE | vel-motor=PB (1)"|
+|"error==NM & derivada-error==PS | vel-motor=PM (1)"|
+|"error==NM & derivada-error==PM | vel-motor=ZE (1)"|
+|"error==NM & derivada-error==PB | vel-motor=NM (1)"|
+|"error==NS & derivada-error==NB | vel-motor=PB (1)"|
+|"error==NS & derivada-error==NM | vel-motor=PB (1)"|
+|"error==NS & derivada-error==NS | vel-motor=PB (1)"|
+|"error==NS & derivada-error==ZE | vel-motor=PM (1)"|
+|"error==NS & derivada-error==PS | vel-motor=ZE (1)"|
+|"error==NS & derivada-error==PM | vel-motor=NM (1)"|
+|"error==NS & derivada-error==PB | vel-motor=NB (1)"|
+|"error==ZE & derivada-error==NB | vel-motor=PB (1)"|
+|"error==ZE & derivada-error==NM | vel-motor=PB (1)"|
+|"error==ZE & derivada-error==NS | vel-motor=PM (1)"|
+|"error==ZE & derivada-error==ZE | vel-motor=ZE (1)"|
+|"error==ZE & derivada-error==PS | vel-motor=NM (1)"|
+|"error==ZE & derivada-error==PM | vel-motor=NB (1)"|
+|"error==ZE & derivada-error==PB | vel-motor=NB (1)"|
+|"error==PS & derivada-error==NB | vel-motor=PB (1)"|
+|"error==PS & derivada-error==NM | vel-motor=PM (1)"|
+|"error==PS & derivada-error==NS | vel-motor=ZE (1)"|
+|"error==PS & derivada-error==ZE | vel-motor=NM (1)"|
+|"error==PS & derivada-error==PS | vel-motor=NB (1)"|
+|"error==PS & derivada-error==PM | vel-motor=NB (1)"|
+|"error==PS & derivada-error==PB | vel-motor=NB (1)"|
+|"error==PM & derivada-error==NB | vel-motor=PM (1)"|
+|"error==PM & derivada-error==NM | vel-motor=ZE (1)"|
+|"error==PM & derivada-error==NS | vel-motor=NM (1)"|
+|"error==PM & derivada-error==ZE | vel-motor=NB (1)"|
+|"error==PM & derivada-error==PS | vel-motor=NB (1)"|
+|"error==PM & derivada-error==PM | vel-motor=NB (1)"|
+|"error==PM & derivada-error==PB | vel-motor=NB (1)"|
+|"error==PB & derivada-error==NB | vel-motor=ZE (1)"|
+|"error==PB & derivada-error==NM | vel-motor=NM (1)"|
+|"error==PB & derivada-error==NS | vel-motor=NB (1)"|
+|"error==PB & derivada-error==ZE | vel-motor=NB (1)"|
+|"error==PB & derivada-error==PS | vel-motor=NB (1)"|
+|"error==PB & derivada-error==PM | vel-motor=NB (1)"|
+|"error==PB & derivada-error==PB | vel-motor=NB (1)"|
 ## **Gráficas resultantes**
 
 ### **PID**
