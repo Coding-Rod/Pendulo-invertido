@@ -18,7 +18,7 @@ Ing. Gabriel Rojas
 
 ## **Sistema en open-loop**
 
-![open-loop](assets\Grafica_open-loop.jpg)
+![open-loop](https://github.com/Rod5919/Pendulo-invertido/blob/main/assets/Grafica_open-loop.jpg)
 
 ## **Controladores implementados**
 
